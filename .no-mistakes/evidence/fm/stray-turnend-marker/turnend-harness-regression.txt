@@ -1,0 +1,27 @@
+FM_TEST_BEGIN 2026-08-18T01:42:21Z tests/fm-busy-adapter-wiring.test.sh family=backend-dispatch expected_gate_skip=none
+ok - turn-end marker publication requires the exact live task spawn incarnation
+ok - pi extension reports agent_start busy, settles idle only via ctx.isIdle(), and keeps turn_end a notification
+ok - pi extension awaits agent_settled before the next agent_start without a test delay
+ok - pi extension events from a superseded incarnation are rejected as stale
+ok - kimi and grok install no unverified semantic wiring and classify through their own gates
+ok - opencode plugin classifies from session.status, scoped to the latched worker session
+ok - claude hooks open on UserPromptSubmit and close on Stop, StopFailure, and SessionEnd
+ok - claude hook events from a superseded incarnation are rejected without breaking the hook
+ok - codex classifies unknown until a semantic source is verified, never idle or footer-matched
+all fm-busy-adapter-wiring tests passed
+FM_TEST_END 2026-08-18T01:42:58Z tests/fm-busy-adapter-wiring.test.sh exit=0 duration_ms=36203 gate_skip=false
+FM_TEST_BEGIN 2026-08-18T01:42:58Z tests/fm-kimi-harness.test.sh family=pure-contract-unit expected_gate_skip=none
+fm-kimi-turnend-hook: refused: python3 with tomllib is required to validate config.toml.
+not ok - Kimi hook install refused a realistic config
+FM_TEST_END 2026-08-18T01:42:59Z tests/fm-kimi-harness.test.sh exit=1 duration_ms=869 gate_skip=false
+FM_TEST_BEGIN 2026-08-18T01:42:59Z tests/fm-grok-harness.test.sh family=pure-contract-unit expected_gate_skip=none
+ok - grok global hook requires a firstmate registry token
+ok - grok teardown removes pointer and token state
+ok - fm-lock recognizes grok harness processes
+FM_TEST_END 2026-08-18T01:43:14Z tests/fm-grok-harness.test.sh exit=0 duration_ms=15659 gate_skip=false
+FM_TEST_SUMMARY total=3 failed=1 skipped_gate=0 duration_ms=52974
+FM_TEST_SUMMARY_FAMILY family=backend-dispatch count=1 duration_ms=36203 failed=0
+FM_TEST_SUMMARY_FAMILY family=pure-contract-unit count=2 duration_ms=16528 failed=1
+FM_TEST_SLOWEST rank=1 script=tests/fm-busy-adapter-wiring.test.sh duration_ms=36203
+FM_TEST_SLOWEST rank=2 script=tests/fm-grok-harness.test.sh duration_ms=15659
+FM_TEST_SLOWEST rank=3 script=tests/fm-kimi-harness.test.sh duration_ms=869
