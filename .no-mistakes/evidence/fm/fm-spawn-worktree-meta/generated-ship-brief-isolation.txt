@@ -1,0 +1,7 @@
+Generated ship brief isolation contract:
+**Verify isolation before anything else.** Run `pwd -P` and `git rev-parse --show-toplevel`; both must resolve to the disposable task worktree you were launched in, such as a treehouse pool path or an Orca-managed worktree.
+Set `primary_clone='/private/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T/no-mistakes-evidence/01M093V8NHTRTX8XW2TYVWCABK/brief-fixture/home/projects/alpha'`, physically resolve both paths with `cd -- "$primary_clone" && pwd -P` and `cd -- "$(git rev-parse --show-toplevel)" && pwd -P`, and compare their output; equal paths mean you were launched in the primary checkout.
+A linked worktree normally has `git rev-parse --git-dir` under the primary clone's `.git/worktrees/`; that location is not evidence that your working tree is the primary checkout.
+If the top-level path equals the primary clone path or is not the disposable worktree you were launched in, STOP - do not branch or commit here - append `blocked: launched in primary checkout, not an isolated worktree` to the status file and stop.
+
+1. First action: create your branch: `git checkout -b fm/evidence-brief`

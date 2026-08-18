@@ -1,0 +1,14 @@
++ id=settle-relative-project-z3
+spawned settle-relative-project-z3 harness=codex kind=ship mode=no-mistakes yolo=off window=firstmate:fm-settle-relative-project-z3 worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-project/wt'
+spawned settle-relative-project-z3 harness=codex kind=ship mode=no-mistakes yolo=off window=firstmate:fm-settle-relative-project-z3 worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-project/wt'
+spawned settle-relative-project-z3 harness=codex kind=ship mode=no-mistakes yolo=off window=firstmate:fm-settle-relative-project-z3 worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-project/wt'
++ meta_worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-project/wt
++ meta_project=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T/fm-spawn-worktree-settle.35JRQE/settle-relative-project/home/projects/project
+spawned settle-relative-project-z3 harness=codex kind=ship mode=no-mistakes yolo=off window=firstmate:fm-settle-relative-project-z3 worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-project/wt' worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-project/wt 'relative-project success output did not report the launched pane cwd'
+ok - a relative projects/<repo> spawn records the launched pane cwd as worktree
++ id=settle-relative-scout-z4
+spawned settle-relative-scout-z4 harness=codex kind=scout window=firstmate:fm-settle-relative-scout-z4 worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-scout/wt'
+spawned settle-relative-scout-z4 harness=codex kind=scout window=firstmate:fm-settle-relative-scout-z4 worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-scout/wt'
++ meta_worktree=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T//fm-spawn-worktree-settle.35JRQE/settle-relative-scout/wt
++ meta_project=/var/folders/nv/q5l3qllj3nb4nf3dj9k004rm0000gp/T/fm-spawn-worktree-settle.35JRQE/settle-relative-scout/home/projects/project
+ok - a relative projects/<repo> scout spawn records the launched pane cwd as worktree
