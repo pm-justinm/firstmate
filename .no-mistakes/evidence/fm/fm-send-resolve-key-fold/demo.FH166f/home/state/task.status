@@ -1,0 +1,4 @@
+needs-decision [key=grid]: choose compact or spacious
+paused: awaiting captain response mentioning [key=grid]
+paused [key=grid]: still awaiting captain response
+resolved [key=grid]: answered: use compact

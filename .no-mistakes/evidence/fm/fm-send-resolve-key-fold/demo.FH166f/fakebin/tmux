@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+case "${1:-}" in
+  send-keys) exit 0 ;;
+  display-message) case "$*" in *cursor_y*) printf '1\n';; *) printf 'fakepane\n';; esac ;;
+  capture-pane) printf '╭────╮\n│    │\n╰────╯\n' ;;
+esac

@@ -1,0 +1,14 @@
+=== Before answer: wake drain still lists the key ===
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+task [key=grid] needs-decision: choose compact or spacious
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'
+=== Captain answers with fm-send --resolve-key ===
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+fm-send exit code: 0
+=== Persisted decision ledger ===
+needs-decision [key=grid]: choose compact or spacious
+paused: awaiting captain response mentioning [key=grid]
+paused [key=grid]: still awaiting captain response
+resolved [key=grid]: answered: use compact
+=== After explicit answer: wake drain output ===
+(no open decisions)
