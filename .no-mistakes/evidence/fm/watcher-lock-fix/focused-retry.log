@@ -1,0 +1,28 @@
+ok - arm cleans child watcher and temp output on HUP
+WAKE_ACK_REQUIRED: after handling completes run bin/fm-wake-drain.sh --ack-through 1 --recovery-generation 74606.1789713818.oAkQCb
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 registered custom check(s), but no live watcher process holds this home lock (last beat: 17s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  After draining queued wakes, repair missing watcher supervision with a foreground checkpoint: bin/fm-watch-checkpoint.sh --seconds 180.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: queued wakes pending - drain them with bin/fm-wake-drain.sh before anything else.
+ok - arm propagates an immediate watcher wake before confirmation
+ok - arm attaches to a peer watcher after child stands down and surfaces a missing successor
+watcher: lock held by live pid 85951 but heartbeat is stale for 843057851s (>300s); inspect or stop that watcher before re-arming.
+ok - arm reports FAILED and exits non-zero when no fresh watcher can be confirmed
+ok - cycle-exit ledger links a verified successor and remains size-capped
+ok - SIGSTOP distinguishes live PID from stale beacon and termination records the exit class
+ok - watch lock publish writes a complete owner record before it is visible
+ok - crash before symlink publish leaves no visible partial watch lock
+ok - pid-only dead watch lock in this home is reclaimed by liveness
+ok - arm reclaims a pid-only dead watch lock and starts a watcher
+ok - live pid-only watch lock is not reclaimed
+ok - watch lock naming another home is not reclaimed while the beacon is fresh
+ok - dead watch lock naming another home is reclaimed once the beacon is stale
+ok - process identity is non-empty for a live process on this host
+ok - watch lock creation fails loudly instead of publishing an empty identity
+ok - watcher that cannot create its lock fails loudly instead of reporting a peer
+ok - a contended steal stands down instead of reporting an identity failure
+ok - an owner-record write failure is not reported as an identity refusal (rc=0)

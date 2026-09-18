@@ -1,0 +1,5 @@
+watcher: FAILED - watcher lock could not be created: this host yields no verifiable process identity, which is required to publish one
+
+exit_code=1
+lock_exists=False
+downtime_exists=False

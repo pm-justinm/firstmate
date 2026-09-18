@@ -1,0 +1,53 @@
+Live CLI validation: real bin/fm-watch-arm.sh and bin/fm-watch.sh; isolated FM_HOME under worktree. No backend stubs.
+Initial 18-second probes were too short; final recovery probes used a 60-second driver observation ceiling, retaining product timeout defaults.
+
+=== clean-start ===
+watcher: started pid=22334 (beacon fresh)
+
+SECOND START rc=0
+watcher: already running pid 22334
+
+OBSERVED OWNER RECORDS [{"pid": "22334", "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/clean-start-retry", "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh", "pid-identity": "Fri Sep 18 14:40:31 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"}]
+partial_record_observed=False
+
+=== dead-partial-autoarm ===
+watcher: started pid=28011 (beacon fresh)
+
+OBSERVED OWNER RECORDS [{"pid": "28011", "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/dead-partial-autoarm-retry", "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh", "pid-identity": "Fri Sep 18 14:40:48 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"}]
+partial_record_observed=False
+
+=== dead-partial-restart ===
+watcher: started pid=32977 (beacon fresh)
+
+OBSERVED OWNER RECORDS [{"pid": "32977", "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/dead-partial-restart-retry", "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh", "pid-identity": "Fri Sep 18 14:41:04 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"}]
+partial_record_observed=False
+
+=== live-partial-held ===
+watcher: already running pid 22030
+
+OBSERVED OWNER RECORDS []
+partial_record_observed=False
+
+=== foreign-fresh-held ===
+watcher: already running pid 999999
+
+OBSERVED OWNER RECORDS []
+partial_record_observed=False
+
+=== foreign-stale-recovered ===
+watcher: started pid=38058 (beacon fresh)
+
+OBSERVED OWNER RECORDS [{"pid": "38058", "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/foreign-stale-recovered-retry", "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh", "pid-identity": "Fri Sep 18 14:41:21 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"}]
+partial_record_observed=False
+
+=== identity-refusal ===
+watcher: FAILED - watcher lock could not be created: this host yields no verifiable process identity, which is required to publish one
+
+exit_code=1
+lock_exists=False
+downtime_exists=False
+
+=== steal-contention ===
+watcher: already running
+
+exit_code=0

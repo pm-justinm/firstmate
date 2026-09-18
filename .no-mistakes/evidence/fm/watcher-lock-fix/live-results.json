@@ -1,0 +1,66 @@
+[
+  {
+    "name": "clean-start",
+    "pass": true,
+    "rc_before_cleanup": null,
+    "records": [
+      {
+        "pid": "22334",
+        "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/clean-start-retry",
+        "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh",
+        "pid-identity": "Fri Sep 18 14:40:31 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"
+      }
+    ]
+  },
+  {
+    "name": "dead-partial-autoarm",
+    "pass": true,
+    "rc_before_cleanup": null,
+    "records": [
+      {
+        "pid": "28011",
+        "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/dead-partial-autoarm-retry",
+        "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh",
+        "pid-identity": "Fri Sep 18 14:40:48 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"
+      }
+    ]
+  },
+  {
+    "name": "dead-partial-restart",
+    "pass": true,
+    "rc_before_cleanup": null,
+    "records": [
+      {
+        "pid": "32977",
+        "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/dead-partial-restart-retry",
+        "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh",
+        "pid-identity": "Fri Sep 18 14:41:04 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"
+      }
+    ]
+  },
+  {
+    "name": "live-partial-held",
+    "pass": true,
+    "rc_before_cleanup": 0,
+    "records": []
+  },
+  {
+    "name": "foreign-fresh-held",
+    "pass": true,
+    "rc_before_cleanup": 0,
+    "records": []
+  },
+  {
+    "name": "foreign-stale-recovered",
+    "pass": true,
+    "rc_before_cleanup": null,
+    "records": [
+      {
+        "pid": "38058",
+        "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/foreign-stale-recovered-retry",
+        "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh",
+        "pid-identity": "Fri Sep 18 14:41:21 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"
+      }
+    ]
+  }
+]

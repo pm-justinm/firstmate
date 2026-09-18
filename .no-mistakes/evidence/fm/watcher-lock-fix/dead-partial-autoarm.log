@@ -1,0 +1,4 @@
+watcher: started pid=28011 (beacon fresh)
+
+OBSERVED OWNER RECORDS [{"pid": "28011", "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/dead-partial-autoarm-retry", "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh", "pid-identity": "Fri Sep 18 14:40:48 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"}]
+partial_record_observed=False

@@ -1,0 +1,7 @@
+watcher: started pid=22334 (beacon fresh)
+
+SECOND START rc=0
+watcher: already running pid 22334
+
+OBSERVED OWNER RECORDS [{"pid": "22334", "fm-home": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/.watch-validation/clean-start-retry", "watcher-path": "/Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh", "pid-identity": "Fri Sep 18 14:40:31 2026     bash /Users/earljustinmangulabnan/.no-mistakes/worktrees/71e1e4780335/01M2SKHNJ750141N4FDWX45FM2/bin/fm-watch.sh"}]
+partial_record_observed=False
